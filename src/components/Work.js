@@ -18,7 +18,7 @@ const projects = {
     { id: 2, title: 'Optical shop frontend', image: 'https://www.colosseinglasses.com/cdn/shop/products/product-image-524594496_540x.jpg?v=1643187318', demoLink: 'https://github.com/sanchitbajaj123/optical-project', viewLink: 'http://optical-project.onrender.com/' },
     { id: 3, title: 'Customer record keeper', image:cr , demoLink: 'https://github.com/sanchitbajaj123/customer-record', viewLink: 'https://customer-record-2.onrender.com/' },
     { id: 4, title: 'Lpu express', image: 'https://lpu-express.netlify.app/static/media/logo.8c16eaec7ce11362ff97.png', demoLink: 'https://github.com/sanchitbajaj123/LPU_express_v2', viewLink: 'https://lpu-express.netlify.app/' },
-    { id: 5, title: 'Aasara-pgt', image:a, demoLink: 'https://github.com/sanchitbajaj123/ASARA-GPT', viewLink: 'https://github.com/sanchitbajaj123/ASARA-GPT' },
+    { id: 5, title: 'Aasara-pgt', image:a, demoLink: 'https://github.com/sanchitbajaj123/ASARA-GPT', viewLink: 'https://aasara-gptt.vercel.app/' },
   ],
 };
 
