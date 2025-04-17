@@ -1,6 +1,6 @@
 import React from 'react';
 import { BiHomeAlt, BiUser } from 'react-icons/bi';
-import {BsBriefcase,BsChatSquareText, BsClipboardData}from 'react-icons/bs'
+import {BsBriefcase,BsChatSquareText, BsClipboardData,BsAward}from 'react-icons/bs'
 import { Link } from 'react-scroll';
 
 const Nav = () => {
@@ -35,8 +35,18 @@ const Nav = () => {
             spy={true} 
 
           >
-            <BsClipboardData size={24} />
+                        <BsClipboardData size={24} />
+                        </Link> 
+          <Link className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
+            to="certificates"  // <-- Your certificates section id must be "certificates"
+            smooth={true}  
+            activeClass='active'
+            spy={true}
+          >
+            <BsAward size={24} /> {/* Using Award Icon for Certificates */}
           </Link>
+
+
           <Link className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
             to="work"  
             smooth={true}  

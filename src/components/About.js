@@ -15,7 +15,7 @@ const About = () => {
         <div className='flex-1 text-center lg:text-left mt-8 lg:mt-0'>
           <h2 className='text-[36px] font-bold mb-4'>About Me</h2>
           <p className='text-lg mb-8 max-w-lg mx-auto lg:mx-0'>
-            I am a passionate and dedicated freelancer specializing in software and full-stack development.
+            I am a passionate and dedicated student specializing in software and full-stack development.
             Currently pursuing my BTech degree at LPU, my journey in the field has been marked by excellence.
             I am proficient in the MERN stack and have a strong track record in solving real-world problems.
             My experience includes winning the state-level 2nd prize for my contribution to the innovative project

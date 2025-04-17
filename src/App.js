@@ -7,7 +7,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Work from './components/Work';
 import Contact from './components/Contact';
-
+import Certificates from './components/Certificate';
 const App = () => {
   return (
     <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
@@ -16,6 +16,7 @@ const App = () => {
       <Nav />
       <About />
       <Skills />
+      <Certificates/>
       <Work />
       <Contact />
       <div className='h-[40px]'></div>
