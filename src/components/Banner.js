@@ -12,9 +12,7 @@ const Banner = () => {
     triggerOnce: false, 
     threshold: 0.1, 
   });
-  const handle=()=>{
-    window.location.hash='contact'
-  }
+
 
   useEffect(() => {
     if (inView) {
