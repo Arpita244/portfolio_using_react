@@ -54,7 +54,7 @@ const Banner = () => {
             Passionate CSE Student and Full Stack Developer | Innovating the Future of Development 🚀
           </p>
           <div>
-            <button className='btn btn-lg' onClick={handle}>Contact Me</button>
+            <button className='btn btn-lg' onClick={()=>{window.location.href="https://drive.google.com/file/d/1arteEbxaBpchNi8l7_ewtMzVLjwKZfu_/view?usp=sharing"}}>Resume</button>
           </div>
           <motion.div
             className='flex gap-x-6 max-w-max mx-auto lg:mx-8 mt-4'
@@ -97,7 +97,7 @@ const Banner = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 2 }}
         >
-          <img src={image} alt='Avatar' className='w-full max-w-[500px] mx-auto' />
+          <img src={image} style={{borderRadius:"180px"}} alt='Avatar' className='w-full max-w-[500px] mx-auto' />
         </motion.div>
       </div>
     </section>
