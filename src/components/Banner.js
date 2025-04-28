@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import image from '../assets/main.png';
-import { FaGithub, FaYoutube, FaLinkedin } from 'react-icons/fa';
+import { FaGithub,FaLinkedin } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -32,7 +32,7 @@ const Banner = () => {
           ref={ref}
         >
           <h1 className='text-[55px] font-bold leading-[0.8] lg:text-[110px]'>
-            SANCHIT <span>BAJAJ</span>
+            ARPITA<span>TIWARI</span>
           </h1>
           <div className='mb-6 text-[36px] font-secondary font-semibold uppercase leading-[1]'>
             <span className='mr-4'>I am a</span>
@@ -52,7 +52,7 @@ const Banner = () => {
             Passionate CSE Student and Full Stack Developer | Innovating the Future of Development 🚀
           </p>
           <div>
-            <button className='btn btn-lg' onClick={()=>{window.location.href="https://drive.google.com/file/d/1arteEbxaBpchNi8l7_ewtMzVLjwKZfu_/view?usp=sharing"}}>Resume</button>
+            <button className='btn btn-lg' onClick={()=>{window.location.href="https://drive.google.com/file/d/1PvMGZakUKxQxK-gzvyEMEkqft8TCeHTu/view?usp=drive_link"}}>Resume</button>
           </div>
           <motion.div
             className='flex gap-x-6 max-w-max mx-auto lg:mx-8 mt-4'
@@ -60,16 +60,8 @@ const Banner = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <a href='https://www.youtube.com/channel/UCihD5L--fRw22jqQsFrrhkA' target='_blank' rel='noopener noreferrer'> 
-              <motion.div
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                transition={{ duration: 0.3 }}
-              >
-                <FaYoutube />
-              </motion.div>
-            </a>
-            <a href='https://github.com/sanchitbajaj123' target='_blank' rel='noopener noreferrer'> 
+
+            <a href='https://github.com/Arpita244' target='_blank' rel='noopener noreferrer'> 
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
@@ -78,7 +70,7 @@ const Banner = () => {
                 <FaGithub />
               </motion.div>
             </a>
-            <a href='https://www.linkedin.com/in/sanchit-bajaj-977908283/' target='_blank' rel='noopener noreferrer'> 
+            <a href='https://www.linkedin.com/in/arpita-tiwari-8b0165255/' target='_blank' rel='noopener noreferrer'> 
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}

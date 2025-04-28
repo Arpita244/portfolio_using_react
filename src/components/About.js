@@ -15,13 +15,14 @@ const About = () => {
         <div className='flex-1 text-center lg:text-left mt-8 lg:mt-0'>
           <h2 className='text-[36px] font-bold mb-4'>About Me</h2>
           <p className='text-lg mb-8 max-w-lg mx-auto lg:mx-0'>
-            I am a passionate and dedicated student specializing in software and full-stack development.
-            Currently pursuing my BTech degree at Lovely professional university, my journey in the field has been marked by excellence.
-            I am proficient in the MERN stack and have a strong track record in solving real-world problems.
-            My experience includes winning the state-level 2nd prize for my contribution to the innovative project
-            'Digi Park.' This achievement has fueled my enthusiasm for creating impactful solutions in the world of technology.
+          I am a passionate and dedicated student specializing in software and full-stack development.
+           I am currently pursuing my B.Tech degree at Lovely Professional University. Throughout my journey,
+            I have been focused on learning, growing, and excelling in this field.
+          I am proficient in the MERN stack and have a strong interest in solving real-world problems by building 
+          impactful and meaningful solutions. My goal is to continue improving my skills and contribute to the world of
+           technology with creativity and passion.
           </p>
-          <a href='https://www.linkedin.com/in/sanchit-bajaj-977908283/' target='_blank' rel='noopener noreferrer'>
+          <a href='https://www.linkedin.com/in/arpita-tiwari-8b0165255/' target='_blank' rel='noopener noreferrer'>
             <button className='btn btn-lg'>View My LinkedIn Profile</button>
           </a>
         </div>

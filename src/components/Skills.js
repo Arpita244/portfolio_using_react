@@ -4,7 +4,6 @@ const skills = [
     { name: "JavaScript", image: "https://cdn-icons-png.flaticon.com/128/5968/5968292.png" }, // JavaScript
     { name: "React", image: "https://cdn-icons-png.flaticon.com/128/875/875209.png" },
     { name: "Node.js", image: "https://cdn-icons-png.flaticon.com/128/919/919825.png" }, // Node.js
-    { name: "Python", image: "https://cdn-icons-png.flaticon.com/128/5968/5968350.png" }, // Python
     { name: "html", image: "https://cdn-icons-png.flaticon.com/128/1051/1051277.png" }, // Tkinter (using similar icon as Express)
     { name: "MySQL", image: "https://cdn-icons-png.flaticon.com/128/919/919836.png" }, // MySQL // PostgreSQL
     { name: "MongoDB", image: "https://img.icons8.com/?size=80&id=8rKdRqZFLurS&format=png" }, // MongoDB

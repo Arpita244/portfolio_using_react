@@ -6,21 +6,21 @@ function Certificates() {
       title: "Cloud Computing",
       issuer: "NPTEL",
       date: "October 2024",
-      link: "https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs118/Course/NPTEL24CS118S167020234304432344.pdf",
+      link: "https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs118/Course/NPTEL24CS118S157020052204430539.pdf",
       img: "https://cdn-icons-png.flaticon.com/512/942/942748.png", // New working icon
     },
     {
-      title: "Full Stack Web Development Using MERN",
-      issuer: "CipherSchools",
-      date: "July 2024",
-      link: "https://www.cipherschools.com/certificate/preview?id=66aa7ed7777cd431c3cc53da",
+      title: "HTML, CSS, and Javascript for Web Developers",
+      issuer: "Coursera",
+      date: "March 2024",
+      link: "https://www.coursera.org/account/accomplishments/verify/TTJ4LVPX7BEJ",
       img: "https://cdn-icons-png.flaticon.com/512/942/942748.png",
     },
     {
       title: "Server Side JavaScript with Node.js",
       issuer: "Coursera",
       date: "April 2024",
-      link: "https://www.coursera.org/account/accomplishments/verify/PPS3QL4DT3VL",
+      link: "https://www.coursera.org/account/accomplishments/verify/VWB4G3CQWBHA",
       img: "https://cdn-icons-png.flaticon.com/512/942/942748.png",
     },
   ];

@@ -1,25 +1,21 @@
 import React, { useState } from 'react';
-import tm from '../assets/text-to-speech.png';
-import l from '../assets/logo.png'
-import i from '../assets/icon.png'
-import a from '../assets/logo-white.png'
-import e from '../assets/eco.png'
-import c from '../assets/chat.png'
-import cr from '../assets/cr.png'
+import tm from '../assets/wa.png';
+import l from '../assets/ma.png'
+import i from '../assets/qs.png'
+import e from '../assets/as.png'
+import c from '../assets/rg.png'
+
 const projects = {
   software: [
-    { id: 1, title: 'Text to speech', image: tm, demoLink: 'https://github.com/sanchitbajaj123/Text-to-speech', viewLink: 'https://github.com/sanchitbajaj123/Text-to-speech' },
-    { id: 2, title: 'Attendance system', image:l, demoLink: 'https://github.com/sanchitbajaj123/Attendance-project-for-factory', viewLink: 'https://github.com/sanchitbajaj123/Attendance-project-for-factory' },
-    { id: 3, title: 'Digi park', image:i, demoLink: 'https://github.com/sanchitbajaj123/digi-park', viewLink: 'https://github.com/sanchitbajaj123/digi-park' },
-    { id: 3, title: 'Eco innovate', image:e, demoLink: 'https://github.com/sanchitbajaj123/ECO-INNOVATIVE', viewLink: 'https://github.com/sanchitbajaj123/ECO-INNOVATIVE' },
+    { id: 1, title: 'Weather app', image: tm, demoLink: 'https://github.com/Arpita244/weather-app', viewLink: 'https://weather-app-bp85-5t6jsdadu-arpita244s-projects.vercel.app/' },
+    { id: 2, title: 'Meeting assistant', image:l, demoLink: 'https://github.com/Arpita244/meeting-assistant', viewLink: 'meeting-assistant-sable.vercel.app' },
+    { id: 3, title: 'Quest Search', image:i, demoLink: 'https://github.com/Arpita244/questsearch', viewLink: 'questsearch-bice.vercel.app' },
+    { id: 3, title: 'Ai incident safety dashboard', image:e, demoLink: 'https://github.com/Arpita244/ai-dashboard', viewLink: 'ai-dashboard-swart.vercel.app' },
   ],
   websites: [
-    { id: 1, title: 'Chat room', image:c , demoLink: 'https://github.com/sanchitbajaj123/chat-room', viewLink: 'https://chat-room-78me.onrender.com/ ' },
-    { id: 2, title: 'Optical shop frontend', image: 'https://www.colosseinglasses.com/cdn/shop/products/product-image-524594496_540x.jpg?v=1643187318', demoLink: 'https://github.com/sanchitbajaj123/optical-project', viewLink: 'http://optical-project.onrender.com/' },
-    { id: 3, title: 'Customer record keeper', image:cr , demoLink: 'https://github.com/sanchitbajaj123/customer-record', viewLink: 'https://customer-record-2.onrender.com/' },
-    { id: 4, title: 'Lpu express', image: 'https://lpu-express.netlify.app/static/media/logo.8c16eaec7ce11362ff97.png', demoLink: 'https://github.com/sanchitbajaj123/LPU_express_v2', viewLink: 'https://lpu-express.netlify.app/' },
-    { id: 5, title: 'Aasara-pgt', image:a, demoLink: 'https://github.com/sanchitbajaj123/ASARA-GPT', viewLink: 'https://aasara-gptt.vercel.app/' },
-  ],
+    { id: 1, title: 'Recipe Genie', image:c , demoLink: 'https://github.com/Arpita244/ai-recipe-generator', viewLink: 'ai-recipe-generator-inky.vercel.app' },
+    { id: 2, title: 'Lpu express', image: 'https://lpu-express.netlify.app/static/media/logo.8c16eaec7ce11362ff97.png', demoLink: 'https://github.com/Arpita244/LPU_express_v2', viewLink: 'https://lpu-express.netlify.app/' },
+]
 };
 
 const Work = () => {
