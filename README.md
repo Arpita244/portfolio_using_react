@@ -1,4 +1,4 @@
-<h1 align="center">🌟 Sanchit Bajaj - Portfolio 🌟</h1>
+<h1 align="center">🌟 Arpita Tiwari - Portfolio 🌟</h1>
 
 <p align="center">
   Welcome to my portfolio website, showcasing my skills, projects, and professional journey as a Full stack developer. This portfolio was built using <strong>React</strong> to create a modern, responsive, and interactive user experience.
